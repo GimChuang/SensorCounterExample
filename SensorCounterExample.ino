@@ -27,8 +27,8 @@ void loop() {
   Serial.print(", Sensor 2: ");
   Serial.println(sc_2.GetCurrentStatus());
 
-  Serial.print("Count 1: ");
+  Serial.print("Count  1: ");
   Serial.print(sc_1.GetCount());
-  Serial.print(", Count 2: ");
+  Serial.print(", Count  2: ");
   Serial.println(sc_2.GetCount());
 }
